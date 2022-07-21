@@ -1,0 +1,1 @@
+cmd_/home/witut/modules/gpio/Module.symvers := sed 's/\.ko$$/\.o/' /home/witut/modules/gpio/modules.order | scripts/mod/modpost -m -a  -o /home/witut/modules/gpio/Module.symvers -e -i Module.symvers   -T -
